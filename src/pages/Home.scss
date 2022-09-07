@@ -1,0 +1,42 @@
+.home {
+  width: 1400px;
+  margin: 0 auto;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+
+  .top-section {
+    margin-bottom: -5px;
+
+    .top-background {
+      img {
+        margin-top: -80px;
+        height: 100vh;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    }
+  }
+
+  @media screen and (min-width: 200px) and (max-width: 500px) {
+    .top-section {
+      .top-background {
+        img {
+          height: 40vh;
+          width: 100%;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+      }
+    }
+  }
+
+  .mid-section {
+    color: #fff;
+  }
+
+  .bottom-section {
+    color: #fff;
+  }
+}
