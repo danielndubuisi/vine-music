@@ -3,7 +3,7 @@ import "./Tour.scss";
 const Tour = () => {
   return (
     <div className="tour" id="tour">
-      <h3>Tour part</h3>
+      <h3>Tour</h3>
     </div>
   );
 };
