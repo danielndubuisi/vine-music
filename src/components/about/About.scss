@@ -1,3 +1,43 @@
 .about {
-  margin: 50px;
+  margin: 150px 50px;
+
+  .header {
+    font-size: 2.4em;
+    text-align: center;
+    padding-bottom: 0.8em;
+  }
+
+  .content {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .text {
+      line-height: 2.3em;
+    }
+
+    .btn {
+      border: 1px solid grey;
+      text-decoration: none;
+      text-align: center;
+      border-radius: 50px;
+      color: #fff;
+      padding: 10px;
+      font-size: 0.8em;
+      font-weight: 600;
+      width: 200px;
+      margin: 0 auto;
+
+      &:hover {
+        border: none;
+        background-color: rgba(23, 62, 99, 0.849);
+        color: #eee;
+        transition: all 0.4s ease;
+        transform: scale(1.2);
+      }
+    }
+  }
 }

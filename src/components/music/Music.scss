@@ -1,5 +1,5 @@
 .music {
-  margin: 50px;
+  margin: 50px 50px 150px 50px;
 
   .header {
     font-size: 2.4em;
@@ -46,11 +46,6 @@
           cursor: pointer;
           color: rgba(11, 192, 11, 0.884);
         }
-
-        .like {
-          font-size: 20px;
-          cursor: pointer;
-        }
       }
 
       .listen {
@@ -85,6 +80,7 @@
           cursor: pointer;
 
           &:hover {
+            transform: scale(1.1);
             transition: all 0.3s ease;
           }
         }
@@ -162,6 +158,40 @@
           }
         }
       }
+    }
+  }
+
+  .new {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+
+    .news {
+      font-size: 1.2em;
+      padding-bottom: 0.3em;
+    }
+
+    .title {
+      font-style: italic;
+      font-weight: 700;
+      font-size: 2.4em;
+      background-image: linear-gradient(
+        to left,
+        violet,
+        indigo,
+        blue,
+        green,
+        yellow,
+        orange,
+        red
+      );
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+
+    small {
+      display: block;
     }
   }
 }

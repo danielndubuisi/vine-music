@@ -54,7 +54,7 @@ const Music = () => {
       <div className="new">
         <h4 className="news">New EP: </h4>
         <span className="title">S7V3N5</span>
-        <small className="time"> Coming soon!!!</small>
+        <small> Coming soon!!!</small>
       </div>
     </div>
   );
