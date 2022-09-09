@@ -1,4 +1,3 @@
-import Button from "../button/Button";
 import "./Videos.scss";
 
 const Videos = () => {
@@ -9,7 +8,9 @@ const Videos = () => {
         <h5>No videos available...</h5>
       </div>
       <div className="view">
-        <Button text="IG LIVE" />
+        <a href="https://instagram.com" target="_blank" rel="noreferrer">
+          <button className="btn"> IG LIVE</button>
+        </a>
       </div>
     </div>
   );

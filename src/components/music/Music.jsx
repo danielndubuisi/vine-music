@@ -2,7 +2,6 @@ import { useState } from "react";
 import { FaSpotify } from "react-icons/fa";
 import { FcLike, FcLikePlaceholder } from "react-icons/fc";
 import { MdOutlineLiveTv } from "react-icons/md";
-import Button from "../../components/button/Button";
 import Img from "../../asset/empty-shell.jpeg";
 import jay from "../../asset/jay.jpg";
 import "./Music.scss";
@@ -12,9 +11,9 @@ const Music = () => {
   const [love, setLove] = useState(false);
 
   return (
-    <div className="music" id="music" data-aos="fade-left">
+    <div className="music" id="music">
       <h3 className="header">Music</h3>
-      <div className="content">
+      <div className="content" data-aos="fade-left">
         <div className="deluxe">
           <p>Empty shell (Deluxe)</p>
           <div className="deluxe-poster">
@@ -22,9 +21,16 @@ const Music = () => {
             <FaSpotify className="icon" />
           </div>
           <div className="listen">
-            <Button />
+            <a href="https://spotify.com" target="_blank" rel="noreferrer">
+              LISTEN HERE
+            </a>
+
             <div className="like" onClick={() => setClick(!click)}>
-              {click ? <FcLike /> : <FcLikePlaceholder />}
+              {click ? (
+                <FcLike className="like-icon" />
+              ) : (
+                <FcLikePlaceholder className="like-icon" />
+              )}
             </div>
           </div>
         </div>
@@ -35,7 +41,10 @@ const Music = () => {
             <MdOutlineLiveTv className="icon" />
           </div>
           <div className="listen">
-            <Button />
+            <a href="https://youtube.com" target="_blank" rel="noreferrer">
+              LISTEN HERE
+            </a>
+
             <div className="like" onClick={() => setLove(!love)}>
               {love ? <FcLike /> : <FcLikePlaceholder />}
             </div>
