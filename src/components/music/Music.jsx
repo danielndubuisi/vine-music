@@ -8,7 +8,7 @@ import "./Music.scss";
 
 const Music = () => {
   return (
-    <div className="music" id="music">
+    <div className="music" id="music" data-aos="fade-left">
       <h3 className="header">Music</h3>
       <div className="content">
         <div className="deluxe">
@@ -23,7 +23,7 @@ const Music = () => {
         <div className="live">
           <p>Hold you dear (Live version)</p>
           <div className="live-poster">
-            <img src={jay} alt="shell" />
+            <img src={jay} alt="shell" className="poster" />
             <MdOutlineLiveTv className="icon" />
             <FcLike className="like" />
           </div>
