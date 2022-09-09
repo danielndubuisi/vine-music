@@ -5,7 +5,7 @@ const Tour = () => {
     <div className="tour" id="tour">
       <h3>Tour</h3>
       <div className="content">
-        <p>Tour dates go here...</p>
+        <p>Currently not on the road...</p>
       </div>
     </div>
   );

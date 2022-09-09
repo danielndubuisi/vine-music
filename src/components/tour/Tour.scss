@@ -1,3 +1,16 @@
 .tour {
-  margin: 50px;
+  margin: 0 50px;
+
+  .content {
+    background-image: url("../../asset/vine-yard1.jpg");
+    background-size: cover;
+    color: #000;
+    height: 200px;
+
+    p {
+      width: 100%;
+      text-align: center;
+      padding: 30px;
+    }
+  }
 }
