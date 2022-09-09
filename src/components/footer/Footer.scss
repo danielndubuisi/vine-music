@@ -1,7 +1,15 @@
 .footer {
-  color: #fff;
   background-color: gray;
-  bottom: 0;
   width: 1400px;
-  margin-top: auto;
+  height: 60px;
+
+  .content {
+    color: rgba(238, 229, 229, 0.856);
+
+    .text {
+      font-size: 0.7em;
+      text-align: center;
+      margin-top: 1.2em;
+    }
+  }
 }
