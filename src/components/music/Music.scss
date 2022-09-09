@@ -13,6 +13,7 @@
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
+    gap: 40px;
 
     .deluxe {
       p {
@@ -23,11 +24,54 @@
 
       .deluxe-poster {
         width: 100%;
+        position: relative;
 
         .poster {
           width: 100%;
           padding: 5px;
           object-fit: cover;
+          border-radius: 20px;
+
+          &:hover {
+            transform: scale(1.1);
+            transition: all 0.45s ease;
+          }
+        }
+
+        .icon {
+          position: absolute;
+          top: 10px;
+          right: 12px;
+          font-size: 2.9em;
+          cursor: pointer;
+
+          &:hover {
+            color: rgba(11, 192, 11, 0.884);
+          }
+        }
+
+        .like {
+          font-size: 20px;
+          cursor: pointer;
+        }
+      }
+
+      .listen {
+        padding: 1.2em;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .like {
+          font-size: 50px;
+          cursor: pointer;
+
+          &:hover {
+            transform: scale(1.1);
+            transition: all 0.3s ease;
+            font-size: 55px;
+          }
         }
       }
     }
@@ -41,10 +85,49 @@
 
       .live-poster {
         width: 100%;
+        position: relative;
 
         .poster {
           width: 100%;
           padding: 5px;
+          border-radius: 20px;
+
+          &:hover {
+            transform: scale(1.1);
+            transition: all 0.45s ease;
+          }
+        }
+
+        .icon {
+          position: absolute;
+          top: 10px;
+          right: 12px;
+          font-size: 2.9em;
+          cursor: pointer;
+
+          &:hover {
+            color: rgba(190, 7, 7, 0.884);
+          }
+        }
+      }
+
+      .listen {
+        padding: 1.2em;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .like {
+          font-size: 50px;
+          cursor: pointer;
+
+          &:hover {
+            transform: scale(1.1);
+            transition: all 0.3s ease;
+            font-size: 55px;
+            margin: -4px;
+          }
         }
       }
     }
@@ -66,16 +149,17 @@
       height: 300px;
     }
 
+    .header {
+      padding-bottom: 0.85em;
+    }
+
     .content {
       width: 100%;
       margin: 0 auto;
       display: flex;
-      gap: 2px;
+      gap: 20px;
       flex-direction: column;
-      align-items: flex-start;
-
-      .deluxe {
-      }
+      align-items: center;
     }
   }
 }
