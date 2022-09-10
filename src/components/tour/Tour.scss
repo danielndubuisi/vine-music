@@ -12,7 +12,6 @@
     background-size: cover;
     color: #000;
     height: 200px;
-    margin: 50px;
 
     p {
       width: 100%;
@@ -25,6 +24,15 @@
 
 @media (min-width: 200px) and (max-width: 600px) {
   .tour {
-    margin: 20px;
+    margin: 0 20px 80px 20px;
+
+    .header {
+      margin-top: 50px;
+      padding-bottom: 0px;
+    }
+
+    .content {
+      margin-top: 1.2em;
+    }
   }
 }

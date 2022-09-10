@@ -153,7 +153,6 @@
           &:hover {
             transform: scale(1.1);
             transition: all 0.3s ease;
-            font-size: 55px;
             margin: -4px;
           }
         }
@@ -216,6 +215,60 @@
       gap: 20px;
       flex-direction: column;
       align-items: center;
+
+      .deluxe {
+        padding: 5px;
+        p {
+          font-size: 0.95em;
+          padding-bottom: 0.7em;
+        }
+
+        .deluxe-poster {
+          .icon {
+            font-size: 2.2em;
+          }
+        }
+
+        .listen {
+          padding: 0.8em;
+          margin-top: -10px;
+
+          a {
+            font-size: 0.6em;
+          }
+
+          .like {
+            font-size: 30px;
+          }
+        }
+      }
+
+      .live {
+        padding: 5px;
+        p {
+          font-size: 0.95em;
+          padding-bottom: 0.7em;
+        }
+
+        .live-poster {
+          .icon {
+            font-size: 2.2em;
+          }
+        }
+
+        .listen {
+          padding: 0.8em;
+          margin-top: -10px;
+
+          a {
+            font-size: 0.6em;
+          }
+
+          .like {
+            font-size: 30px;
+          }
+        }
+      }
     }
   }
 }

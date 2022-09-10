@@ -93,11 +93,11 @@
           input {
             width: 250px;
             height: 40px;
+            padding: 5px;
           }
 
           input:focus {
             outline: none;
-            padding: 5px;
           }
 
           input::placeholder {
