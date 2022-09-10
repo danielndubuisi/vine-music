@@ -1,4 +1,6 @@
 .bio {
+  max-width: 1800px;
+  margin: 0 auto;
   color: #fff;
   background-color: #000;
   display: flex;
@@ -8,13 +10,13 @@
   .content {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: start;
+    align-items: flex-start;
+    justify-content: space-between;
     margin-bottom: 50px;
 
     .header {
-      margin: 20px 10px;
-      text-align: start;
+      margin: 20px;
+      margin-left: 90px;
       font-size: 2.2em;
     }
 
@@ -29,6 +31,7 @@
 
   .footer {
     font-size: 0.8em;
+    width: 100%;
   }
 }
 
@@ -36,7 +39,10 @@
   .bio {
     .content {
       font-size: 80%;
-      text-align: start;
+
+      .header {
+        margin-left: 40px;
+      }
     }
   }
 }
