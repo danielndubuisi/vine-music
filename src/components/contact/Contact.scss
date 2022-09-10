@@ -10,7 +10,7 @@
   .content {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
     width: 100%;
     margin: 0 auto;
     align-items: center;
@@ -68,6 +68,69 @@
     .news-letter {
       width: 80%;
       margin: 0 auto;
+
+      .letter-header {
+        h3 {
+          font-size: 1em;
+        }
+        p {
+          padding-bottom: 1.2em;
+        }
+      }
+
+      .form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        form {
+          display: flex;
+          gap: 5px;
+          flex-wrap: wrap;
+          justify-content: space-between;
+
+          input {
+            width: 250px;
+            height: 40px;
+          }
+
+          input:focus {
+            outline: none;
+            padding: 5px;
+          }
+
+          input::placeholder {
+            font-size: 14px;
+            padding: 5px;
+          }
+
+          .signup-btn {
+            border: 1px solid grey;
+            text-decoration: none;
+            text-align: center;
+            border-radius: 50px;
+            color: #000;
+            padding: 10px;
+            font-size: 0.8em;
+            font-weight: 600;
+            width: 100px;
+
+            &:hover {
+              border: none;
+              background-color: rgba(23, 62, 99, 0.849);
+              color: #eee;
+              transition: all 0.4s ease;
+            }
+          }
+        }
+
+        small {
+          align-self: center;
+          color: grey;
+          font-size: 0.6em;
+        }
+      }
     }
   }
 }

@@ -10,7 +10,7 @@ import { SiAudiomack } from "react-icons/si";
 import "./Contact.scss";
 
 const Contact = () => {
-  const onSubmit = (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
 
     console.log("submitted");
@@ -50,7 +50,7 @@ const Contact = () => {
             <p>Sign up with your email address to recieve news and updates</p>
           </div>
           <div className="form">
-            <form onClick={onSubmit}>
+            <form onSubmit={handleSubmit}>
               <input type="text" placeholder="First name" />
               <input type="text" placeholder="Last name" />
               <input type="email" placeholder="Email" />
