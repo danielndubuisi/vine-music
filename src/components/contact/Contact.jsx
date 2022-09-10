@@ -20,8 +20,8 @@ const Contact = () => {
       <h3 className="header">Contact</h3>
       <div className="content">
         <div className="top-content">
-          <div className="management">
-            <h4 className="title">Management:</h4>
+          <div className="bookings">
+            <h4 className="title">For Bookings:</h4>
             <p className="email">daniel@vinemusic.com</p>
             <p className="email">john@vinemusic.com</p>
           </div>
@@ -52,8 +52,8 @@ const Contact = () => {
           <div className="form">
             <form onClick={onSubmit}>
               <input type="text" placeholder="First name" />
-              <input type="text" placeholder="First name" />
-              <input type="text" placeholder="First name" />
+              <input type="text" placeholder="Last name" />
+              <input type="email" placeholder="Email" />
               <button type="submit" className="signup-btn">
                 SIGN UP
               </button>
