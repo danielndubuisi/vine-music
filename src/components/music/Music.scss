@@ -56,7 +56,8 @@
         justify-content: space-between;
 
         a {
-          border: 1px solid grey;
+          border: none;
+          background-color: rgba(23, 62, 99, 0.849);
           text-decoration: none;
           text-align: center;
           border-radius: 50px;
@@ -71,7 +72,7 @@
             background-color: rgba(23, 62, 99, 0.849);
             color: #eee;
             transition: all 0.4s ease;
-            transform: scale(1.2);
+            transform: scale(1.1);
           }
         }
 
@@ -127,7 +128,8 @@
         justify-content: space-between;
 
         a {
-          border: 1px solid grey;
+          border: none;
+          background-color: rgba(23, 62, 99, 0.849);
           text-decoration: none;
           text-align: center;
           border-radius: 50px;
@@ -142,7 +144,7 @@
             background-color: rgba(23, 62, 99, 0.849);
             color: #eee;
             transition: all 0.4s ease;
-            transform: scale(1.2);
+            transform: scale(1.1);
           }
         }
 
@@ -153,7 +155,7 @@
           &:hover {
             transform: scale(1.1);
             transition: all 0.3s ease;
-            margin: -4px;
+            margin: 0px;
           }
         }
       }

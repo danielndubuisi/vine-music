@@ -106,20 +106,23 @@
           }
 
           .signup-btn {
-            border: 1px solid grey;
+            border: none;
+            background-color: rgba(23, 62, 99, 0.849);
             text-decoration: none;
             text-align: center;
             border-radius: 50px;
-            color: #000;
+            color: #fff;
             padding: 10px;
             font-size: 0.8em;
             font-weight: 600;
             width: 100px;
+            cursor: pointer;
 
             &:hover {
               border: none;
               background-color: rgba(23, 62, 99, 0.849);
               color: #eee;
+              transform: scale(1.1);
               transition: all 0.4s ease;
             }
           }
@@ -137,6 +140,6 @@
 
 @media (min-width: 200px) and (max-width: 600px) {
   .contact {
-    margin: 30px;
+    margin: 15px;
   }
 }

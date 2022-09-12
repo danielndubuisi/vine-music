@@ -2,7 +2,9 @@
   width: 1800px;
   margin: 0 auto;
   background-color: #000;
+  background-image: url("../asset/vine-yard2.jpg");
   display: flex;
+  background-size: cover;
   flex-direction: column;
 
   .top-section {
