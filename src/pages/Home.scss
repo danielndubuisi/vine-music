@@ -2,7 +2,7 @@
   width: 100%;
   margin: 0 auto;
   background-color: #000;
-  background-image: url("../asset/vineBg2.png");
+  background-image: url("../asset/vineBg3.png");
   background-size: cover;
   display: flex;
   background-repeat: no-repeat;
@@ -38,13 +38,15 @@
   }
 
   @media screen and (min-width: 200px) and (max-width: 600px) {
-    .top-section {
-      .top-background {
-        img {
-          height: 40vh;
-          width: 100%;
-          background-repeat: no-repeat;
-          background-size: cover;
+    .home {
+      .top-section {
+        .top-background {
+          img {
+            height: 40vh;
+            width: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+          }
         }
       }
     }
