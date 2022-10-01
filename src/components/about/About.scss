@@ -47,5 +47,17 @@
 @media (min-width: 200px) and (max-width: 600px) {
   .about {
     padding: 30px 0;
+
+    .content {
+      .text {
+        line-height: 2em;
+        font-size: 14px;
+      }
+
+      .btn {
+        font-size: 0.6em;
+        width: 180px;
+      }
+    }
   }
 }

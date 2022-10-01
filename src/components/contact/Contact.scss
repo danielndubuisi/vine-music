@@ -143,5 +143,12 @@
 @media (min-width: 200px) and (max-width: 600px) {
   .contact {
     padding: 30px 0;
+    font-size: 0.85em;
+
+    form {
+      .signup-btn {
+        font-size: 0.6em;
+      }
+    }
   }
 }
