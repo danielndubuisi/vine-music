@@ -20,9 +20,9 @@ const Navbar = () => {
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li
               className="nav-item"
-              onClick={(e) => {
-                e.preventDefault();
-                window.location.replace("/#music");
+              onClick={() => {
+                const anchor = document.querySelector("#music");
+                anchor.scrollIntoView({ behavior: "smooth", block: "center" });
               }}
             >
               <Link to="/" className="nav-links" onClick={closeMobileMenu}>
@@ -34,9 +34,9 @@ const Navbar = () => {
             </li>
             <li
               className="nav-item"
-              onClick={(e) => {
-                e.preventDefault();
-                window.location.replace("/#videos");
+              onClick={() => {
+                const anchor = document.querySelector("#videos");
+                anchor.scrollIntoView({ behavior: "smooth", block: "center" });
               }}
             >
               <Link to="" className="nav-links" onClick={closeMobileMenu}>
@@ -49,9 +49,9 @@ const Navbar = () => {
 
             <li
               className="nav-item"
-              onClick={(e) => {
-                e.preventDefault();
-                window.location.replace("/#about");
+              onClick={() => {
+                const anchor = document.querySelector("#about");
+                anchor.scrollIntoView({ behavior: "smooth", block: "center" });
               }}
             >
               <Link to="" className="nav-links" onClick={closeMobileMenu}>
@@ -65,9 +65,9 @@ const Navbar = () => {
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li
               className="nav-item"
-              onClick={(e) => {
-                e.preventDefault();
-                window.location.replace("/#tour");
+              onClick={() => {
+                const anchor = document.querySelector("#tour");
+                anchor.scrollIntoView({ behavior: "smooth", block: "center" });
               }}
             >
               <Link to="" className="nav-links" onClick={closeMobileMenu}>
@@ -79,9 +79,9 @@ const Navbar = () => {
             </li>
             <li
               className="nav-item"
-              onClick={(e) => {
-                e.preventDefault();
-                window.location.replace("/#contact");
+              onClick={() => {
+                const anchor = document.querySelector("#contact");
+                anchor.scrollIntoView({ behavior: "smooth", block: "center" });
               }}
             >
               <Link to="" className="nav-links" onClick={closeMobileMenu}>
