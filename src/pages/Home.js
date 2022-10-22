@@ -1,7 +1,6 @@
 import { useEffect } from "react";
 import "./Home.scss";
 import Navbar from "../components/navbar/Navbar";
-import bgImg from "../asset/guitar1.webp";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import About from "../components/about/About";
@@ -20,11 +19,7 @@ const Home = () => {
     <>
       <div className="home">
         <Navbar />
-        <div className="top-section">
-          <div className="top-background">
-            <img src={bgImg} alt="bgImg" />
-          </div>
-        </div>
+        <div className="top-section"></div>
         <div className="mid-section">
           <Music />
           <Videos />

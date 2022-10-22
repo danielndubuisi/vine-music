@@ -21,8 +21,11 @@ const Navbar = () => {
             <li
               className="nav-item"
               onClick={() => {
-                const anchor = document.querySelector("#music");
-                anchor.scrollIntoView({ behavior: "smooth", block: "center" });
+                window.scroll({
+                  top: 0,
+                  left: 0,
+                  behavior: "smooth",
+                });
               }}
             >
               <Link to="/" className="nav-links" onClick={closeMobileMenu}>
@@ -59,9 +62,19 @@ const Navbar = () => {
               </Link>
             </li>
           </ul>
-          <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            V.I.N.E.
-          </Link>
+          <span
+            onClick={() => {
+              window.scroll({
+                top: 0,
+                left: 0,
+                behavior: "smooth",
+              });
+            }}
+          >
+            <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+              V.I.N.E.
+            </Link>
+          </span>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li
               className="nav-item"
