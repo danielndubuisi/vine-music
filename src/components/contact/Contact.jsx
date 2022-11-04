@@ -21,9 +21,8 @@ const Contact = () => {
       <div className="content">
         <div className="top-content">
           <div className="bookings">
-            <h4 className="title">For Bookings:</h4>
-            <p className="email">daniel@vinemusic.xyz</p>
-            <p className="email">john@vinemusic.xyz</p>
+            <h4 className="title">For enquires:</h4>
+            <p className="email">info@vinemusic.xyz</p>
           </div>
           <div className="label">
             <h4 className="title">Label:</h4>
