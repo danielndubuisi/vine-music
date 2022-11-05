@@ -21,14 +21,8 @@ const Contact = () => {
       <div className="content">
         <div className="top-content">
           <div className="bookings">
-            <h4 className="title">For enquires:</h4>
+            <h4 className="title">Enquires:</h4>
             <p className="email">info@vinemusic.xyz</p>
-          </div>
-          <div className="label">
-            <h4 className="title">Label:</h4>
-            <p className="label-name">
-              &copy; <span>vinemusic</span>
-            </p>
           </div>
           <div className="social">
             <h4 className="title">Social:</h4>
