@@ -3,7 +3,7 @@ import { FaSpotify } from "react-icons/fa";
 import { FcLike, FcLikePlaceholder } from "react-icons/fc";
 import { MdOutlineLiveTv } from "react-icons/md";
 import Img from "../../asset/empty-shell.jpeg";
-import jay from "../../asset/jay.jpg";
+import hold from "../../asset/hold-u-dear.jpeg";
 import "./Music.scss";
 
 const Music = () => {
@@ -37,7 +37,7 @@ const Music = () => {
         <div className="live">
           <p>Hold you dear (Live version)</p>
           <div className="live-poster">
-            <img src={jay} alt="shell" className="poster" />
+            <img src={hold} alt="shell" className="poster" />
             <MdOutlineLiveTv className="icon" />
           </div>
           <div className="listen">
