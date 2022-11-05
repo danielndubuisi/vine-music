@@ -2,7 +2,7 @@ import { useState } from "react";
 import { FaSpotify } from "react-icons/fa";
 import { FcLike, FcLikePlaceholder } from "react-icons/fc";
 import { MdOutlineLiveTv } from "react-icons/md";
-import Img from "../../asset/empty-shell.jpeg";
+import Img from "../../asset/artboard1.png";
 import hold from "../../asset/hold2.png";
 import "./Music.scss";
 
