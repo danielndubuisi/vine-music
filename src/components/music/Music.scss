@@ -35,7 +35,7 @@
           border-radius: 20px;
 
           &:hover {
-            transform: scale(1.1);
+            transform: scale(1.03);
             transition: all 0.45s ease;
           }
         }
@@ -83,7 +83,7 @@
           cursor: pointer;
 
           &:hover {
-            transform: scale(1.1);
+            transform: scale(1.05);
             transition: all 0.3s ease;
           }
         }
@@ -98,7 +98,7 @@
       }
 
       .live-poster {
-        width: 100%;
+        width: 580px;
         position: relative;
 
         .poster {
@@ -107,7 +107,7 @@
           border-radius: 20px;
 
           &:hover {
-            transform: scale(1.1);
+            transform: scale(1.03);
             transition: all 0.45s ease;
           }
         }
@@ -254,6 +254,7 @@
         }
 
         .live-poster {
+          width: 100%;
           .icon {
             font-size: 1.6em;
           }
