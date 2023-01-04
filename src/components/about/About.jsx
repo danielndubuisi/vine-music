@@ -12,7 +12,7 @@ const About = () => {
           duo of Daniel Ndubuisi and John Godson have headlined live
           performances, picking up accolades from the likes of Sanmi, and many
           more outlets along the way. They’ve been described, at various times
-          over this period, as a pop, alternative, and rock band – and the truth
+          over this period, as a folk, soul, and pop rock band – and the truth
           is they’ve dabbled in ...
         </p>
         <Link to="/bio" className="btn">

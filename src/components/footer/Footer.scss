@@ -14,3 +14,13 @@
     }
   }
 }
+
+@media (min-width: 200px) and (max-width: 600px) {
+  .footer {
+    .content {
+      .text {
+        font-size: 10px;
+      }
+    }
+  }
+}

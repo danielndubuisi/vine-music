@@ -8,7 +8,7 @@ const Bio = () => {
       <div className="bio">
         <Navbar />
         <div className="content">
-          <h2 className="header">Bio</h2>
+          <h2 className="header">About</h2>
           <p className="text">
             The story of V.I.N.E is one of perseverance and determination, of
             personal, cumulative growth and maturity. <br />
@@ -17,9 +17,9 @@ const Bio = () => {
             picking up accolades from the likes of Sanmi, and many more outlets
             along the way. <br />
             <br /> They’ve been described, at various times over this period, as
-            a pop, alternative, and rock band – and the truth is they’ve dabbled
-            in all these areas, and more – but fitting into one box has never
-            been a defining factor for them. <br /> <br />
+            a folk, soul and pop rock duo – and the truth is they’ve dabbled in
+            all these areas, and more – but fitting into one box has never been
+            a defining factor for them. <br /> <br />
             “For me, our sound is more like a concept or an existential
             experience than it is a specific genre,” - John says. <br /> <br />
             “If you have to boil it down that’s fine, but I want it to be more
